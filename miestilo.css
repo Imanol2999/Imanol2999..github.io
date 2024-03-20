@@ -1,0 +1,84 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #FBE9E7; /* Color de fondo más suave */
+    color: #5D4037; /* Color de texto oscuro para contraste */
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#contenedor {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #FFAB91; /* Color más claro, adecuado para temas de mermelada */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: #4E342E; /* Color de texto más oscuro para mejorar la legibilidad */
+    font-size: 24px; /* Tamaño de fuente más grande para el encabezado */
+}
+
+nav {
+    width: 100%;
+    background-color: #BCAAA4; /* Color suave que complementa el tema de mermelada */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px; /* Espacio entre nav y el contenido */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5D4037;
+    font-weight: 600; /* Hacer el texto un poco más grueso */
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.imagenes div {
+    width: calc(33.333% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Establece una altura máxima para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el área asignada sin perder su proporción */
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #4E342E; /* Color oscuro para el pie de página */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: #FFF; /* Texto blanco para el pie de página */
+    margin-top: 20px;
+}
